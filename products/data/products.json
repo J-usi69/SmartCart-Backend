@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Laptop Lenovo",
+    "description": "Potente laptop para gaming",
+    "price": 1500.00,
+    "stock": 19,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [2, 3]
+  },
+  {
+    "name": "Mouse Logitech",
+    "description": "Potente mouse con hasta 16.000 DPI",
+    "price": 100.00,
+    "stock": 19,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [3, 4]
+  },
+  {
+    "name": "Teclado Mecánico Corsair K70",
+    "description": "Teclado RGB con switches Cherry MX Red",
+    "price": 120.00,
+    "stock": 25,
+    "has_discount": true,
+    "discount_percentage": 10,
+    "related_ids": [4, 5]
+  },
+  {
+    "name": "Monitor Samsung 24\"",
+    "description": "Monitor Full HD 24 pulgadas, 75 Hz",
+    "price": 200.00,
+    "stock": 15,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [5, 6]
+  },
+  {
+    "name": "Auriculares HyperX Cloud II",
+    "description": "Auriculares gaming con sonido envolvente 7.1",
+    "price": 80.00,
+    "stock": 30,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [6, 7]
+  },
+  {
+    "name": "Tarjeta Gráfica NVIDIA RTX 3060",
+    "description": "GPU ideal para gaming a 1080p y 1440p",
+    "price": 350.00,
+    "stock": 10,
+    "has_discount": true,
+    "discount_percentage": 7,
+    "related_ids": [7, 8]
+  },
+  {
+    "name": "Silla Gamer DXRacer",
+    "description": "Silla ergonómica con soporte lumbar",
+    "price": 250.00,
+    "stock": 5,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [8, 9]
+  },
+  {
+    "name": "Webcam Logitech C920",
+    "description": "Webcam Full HD 1080p para streaming",
+    "price": 70.00,
+    "stock": 12,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [9, 10]
+  },
+  {
+    "name": "SSD 1TB NVMe",
+    "description": "Unidad de estado sólido NVMe M.2 1 TB",
+    "price": 130.00,
+    "stock": 20,
+    "has_discount": true,
+    "discount_percentage": 15,
+    "related_ids": [10, 11]
+  },
+  {
+    "name": "HDD 2TB Seagate",
+    "description": "Disco duro mecánico 2 TB SATA III",
+    "price": 60.00,
+    "stock": 40,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [11, 12]
+  },
+  {
+    "name": "CPU Intel i7-12700",
+    "description": "Procesador Intel Core i7 de 12ª generación",
+    "price": 350.00,
+    "stock": 8,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [12, 13]
+  },
+  {
+    "name": "Motherboard ASUS ROG Strix Z690-E",
+    "description": "Placa base ATX para Intel 12ª gen",
+    "price": 300.00,
+    "stock": 7,
+    "has_discount": true,
+    "discount_percentage": 8,
+    "related_ids": [13, 14]
+  },
+  {
+    "name": "RAM DDR4 16GB 3200MHz",
+    "description": "Kit 2×8 GB DDR4 a 3200 MHz",
+    "price": 75.00,
+    "stock": 30,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [14, 15]
+  },
+  {
+    "name": "RAM DDR4 32GB 3600MHz",
+    "description": "Kit 2×16 GB DDR4 a 3600 MHz",
+    "price": 140.00,
+    "stock": 25,
+    "has_discount": true,
+    "discount_percentage": 12,
+    "related_ids": [15, 16]
+  },
+  {
+    "name": "Cooler Master Hyper 212",
+    "description": "Disipador de aire para CPU con 4 heatpipes",
+    "price": 40.00,
+    "stock": 22,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [16, 17]
+  },
+  {
+    "name": "Fuente Corsair RM650x",
+    "description": "Fuente de poder 650 W 80+ Gold modular",
+    "price": 120.00,
+    "stock": 14,
+    "has_discount": true,
+    "discount_percentage": 10,
+    "related_ids": [17, 18]
+  },
+  {
+    "name": "Gabinete NZXT H510",
+    "description": "Case Mid Tower con panel frontal de vidrio templado",
+    "price": 70.00,
+    "stock": 18,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [18, 19]
+  },
+  {
+    "name": "Monitor Acer 27\" 144Hz",
+    "description": "Monitor Full HD 27 pulgadas, 144 Hz",
+    "price": 250.00,
+    "stock": 10,
+    "has_discount": true,
+    "discount_percentage": 7,
+    "related_ids": [19, 20]
+  },
+  {
+    "name": "Teclado Razer BlackWidow",
+    "description": "Mecánico RGB con switches verdes",
+    "price": 130.00,
+    "stock": 15,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [20, 21]
+  },
+  {
+    "name": "Mouse Razer DeathAdder V2",
+    "description": "Mouse ergonómico con sensor de 20 000 DPI",
+    "price": 80.00,
+    "stock": 20,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [21, 22]
+  },
+  {
+    "name": "Mousepad Glorious XL",
+    "description": "Alfombrilla XXL para mouse, superficie textil",
+    "price": 30.00,
+    "stock": 35,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [22, 23]
+  },
+  {
+    "name": "Auriculares SteelSeries Arctis 7",
+    "description": "Wireless con sonido envolvente DTS",
+    "price": 150.00,
+    "stock": 12,
+    "has_discount": true,
+    "discount_percentage": 10,
+    "related_ids": [23, 24]
+  },
+  {
+    "name": "Micrófono Blue Yeti",
+    "description": "Micrófono USB de condensador profesional",
+    "price": 110.00,
+    "stock": 17,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [24, 25]
+  },
+  {
+    "name": "Elgato HD60 S",
+    "description": "Tarjeta de captura en vivo 1080p60 USB 3.0",
+    "price": 160.00,
+    "stock": 9,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [25, 26]
+  },
+  {
+    "name": "Meta Quest 2",
+    "description": "Visor VR todo en uno, 256 GB",
+    "price": 399.00,
+    "stock": 8,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [26, 27]
+  },
+  {
+    "name": "Control Xbox Series X",
+    "description": "Mando inalámbrico oficial Xbox",
+    "price": 60.00,
+    "stock": 25,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [27, 28]
+  },
+  {
+    "name": "DualSense PS5",
+    "description": "Mando inalámbrico oficial PlayStation 5",
+    "price": 70.00,
+    "stock": 20,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [28, 29]
+  },
+  {
+    "name": "Hub USB 7 Puertos Anker",
+    "description": "Concentrador USB 3.0 con switch por puerto",
+    "price": 25.00,
+    "stock": 30,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [29, 30]
+  },
+  {
+    "name": "Tarjeta de Red TP-Link PCIe",
+    "description": "Network card Gigabit Ethernet PCIe",
+    "price": 35.00,
+    "stock": 22,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [30, 31]
+  },
+  {
+    "name": "Ventilador Noctua 120mm",
+    "description": "Ventilador de case silencioso PWM",
+    "price": 20.00,
+    "stock": 40,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [31, 32]
+  },
+  {
+    "name": "Tira RGB Corsair iCUE",
+    "description": "LEDs direccionables para PC",
+    "price": 40.00,
+    "stock": 18,
+    "has_discount": true,
+    "discount_percentage": 10,
+    "related_ids": [32, 33]
+  },
+  {
+    "name": "Silla Secretlab Omega",
+    "description": "Silla gaming ergonómica premium",
+    "price": 400.00,
+    "stock": 6,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [33, 34]
+  },
+  {
+    "name": "Escritorio Gaming Eureka",
+    "description": "Escritorio en L con soporte para cascos",
+    "price": 180.00,
+    "stock": 10,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [34, 35]
+  },
+  {
+    "name": "Webcam Razer Kiyo",
+    "description": "Webcam Full HD con anillo de luz integrado",
+    "price": 100.00,
+    "stock": 14,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [35, 36]
+  },
+  {
+    "name": "Parlantes Logitech Z333",
+    "description": "Sistema 2.1 con subwoofer de 80 W",
+    "price": 60.00,
+    "stock": 20,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [36, 37]
+  },
+  {
+    "name": "Protector APC 6 Puertos",
+    "description": "Protección contra sobretensiones y picos",
+    "price": 25.00,
+    "stock": 50,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [37, 38]
+  },
+  {
+    "name": "HDD Externo Seagate 4TB",
+    "description": "Disco externo USB 3.0 4 TB",
+    "price": 100.00,
+    "stock": 15,
+    "has_discount": true,
+    "discount_percentage": 10,
+    "related_ids": [38, 39]
+  },
+  {
+    "name": "Tableta Gráfica Wacom Intuos",
+    "description": "Tableta de dibujo digital pequeña",
+    "price": 80.00,
+    "stock": 12,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [39, 40]
+  },
+  {
+    "name": "Samsung Galaxy A53",
+    "description": "Smartphone 6.5\" AMOLED, 128 GB",
+    "price": 300.00,
+    "stock": 20,
+    "has_discount": true,
+    "discount_percentage": 5,
+    "related_ids": [40, 1]
+  },
+  {
+    "name": "Router Gaming TP-Link Archer",
+    "description": "Router Wi-Fi 6 con QoS y VPN",
+    "price": 120.00,
+    "stock": 18,
+    "has_discount": false,
+    "discount_percentage": 0,
+    "related_ids": [1, 2]
+  }
+]

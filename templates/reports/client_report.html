@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <title>Reporte de Cliente</title>
+            <style>
+                /* Estilos existentes */
+            </style>
+        </head>
+        <body>
+        <div class="header">
+            <h1>Reporte de Compras del Cliente</h1>
+            <p>Cliente ID: {{ client_id }}</p>
+            {% if start_date %}<p>Desde: {{ start_date|date:"d/m/Y" }}</p>{% endif %}
+            {% if end_date %}<p>Hasta: {{ end_date|date:"d/m/Y" }}</p>{% endif %}
+        </div>
+
+        {% if orders %}
+            <h2>Órdenes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for order in orders %}
+                    <tr>
+                        <td>{{ order.id }}</td>
+                        <td>{{ order.date|date:"d/m/Y H:i" }}</td>
+                        <td>{{ order.status }}</td>
+                        <td>{{ order.total }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="total">Total Gastado:</td>
+                        <td class="total">{{ total_spent }}</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h2>Productos Comprados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Orden ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for order in orders %}
+                    {% for item in order.items %}
+                        <tr>
+                            <td>{{ order.id }}</td>
+                            <td>{{ item.product }}</td>
+                            <td>{{ item.price }}</td>
+                            <td>{{ item.quantity }}</td>
+                            <td>{{ item.subtotal }}</td>
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No hay órdenes para este cliente en el período seleccionado.</p>
+        {% endif %}
+        </body>
+        </html>
