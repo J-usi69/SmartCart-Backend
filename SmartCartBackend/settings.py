@@ -199,3 +199,6 @@ CORS_ALLOW_CREDENTIALS = True
 if not DEBUG:  # solo para producción
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
     MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+
+
+ALLOWED_HOSTS= ['*']  # Permitir todas las solicitudes de host    
